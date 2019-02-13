@@ -1,0 +1,9 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  #p1 {
+    width: 50%;
+    height: 100px;
+  }
+  #p2 {
+    width: 50px;
+    height: 010px;
+  }
