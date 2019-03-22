@@ -1,21 +1,20 @@
 * {
+  
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+  }
+
 #head1 {
 	padding-top: 2px;
   text-align: center;
   margin-bottom: 15px;
-	
 }
- .row {
-  width: 100%;
+ 
+.row {
+   width: 100%;
   
-  }
+}
 
 .sec {
-
   border: 2px solid black;
   padding: 2px; 
   padding-top: 0;
@@ -26,66 +25,45 @@
   height: 195px;
 }
  
-
 p {
       
-     margin-top: 40px;
-     margin-bottom: 0;
-     margin-left: 10px;
-     padding: 5px;
-     
+  margin-top: 40px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding: 5px;
 }
 
+@media (min-width: 992px) {
 
-	
-
- @media (min-width: 992px) {
-   .col-lg-4 {
-     float:left;
-     width: 31.33%;
-     margin: 1%;
+  .col-lg-4 {
+    float:left;
+    width: 31.33%;
+    margin: 1px;
   }
 }
  
- /* @media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
+
   .col-md-6 {
      float: left;
      width: 50%;
-     height: auto;
      margin: 1px;
-    
-     }
-
-  .col-md-12 {
-     
-     float: left;
-      width: 100%;
-      margin: 1px;
-    }
-  } */
-  @media (min-width: 768px) and (max-width: 991px) {
-  
-   .col-md-6 {
-  
-    float: left;
-    width: 50%;
-     margin: 1p%;
   }
   
   .col-md-12 {
-
     float: left;
     width: 100%;
-    margin: 1p%;
+    margin: 1px;
   }
 }
 
 
 @media (max-width: 767px) {
+
   .col-sm-12 {
     float: left;
     width: 98%;
-    margin: 1p%;
+    margin: 1px;
   }
 }
  
@@ -95,7 +73,6 @@ p {
    text-align-last: right;
    float: right;
    border-left: 2px solid black;
-   
    border-bottom: 2px solid black;
    margin-top: 0;
    padding-top: 0;
@@ -103,8 +80,6 @@ p {
    padding-left: 15px;
    padding-right: 15px;
    
-
-      
 }
 
 .beef {
@@ -112,19 +87,22 @@ p {
 	text-align: right;
   float: right;
   border-left: 2px solid black;
-  
   border-bottom: 2px solid black;
+  margin-top: 0;
+  padding-top: 0;
   padding: 5px; 
   padding-left: 34px;
   padding-right: 34px
 }
+
 .sushi {
 	text-align: right;
 	background-color: yellow;
   float: right;
   border-left: 2px solid black;
-  
   border-bottom: 2px solid black;
+  margin-top: 0;
+  padding-top: 0;
   padding: 5px; 
   padding-left: 30px;
   padding-right: 30px;
