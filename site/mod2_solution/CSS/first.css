@@ -43,7 +43,7 @@ p {
    .col-lg-4 {
      float:left;
      width: 31.33%;
-     margin: 1px;
+     margin: 1%;
   }
 }
  
@@ -66,19 +66,17 @@ p {
   @media (min-width: 768px) and (max-width: 991px) {
   
    .col-md-6 {
-    
-     float: left;
-     overflow: visible !important;
-     width: 50%;
-     margin: 1px;
+  
+    float: left;
+    width: 50%;
+     margin: 1p%;
   }
   
   .col-md-12 {
 
     float: left;
-    overflow: visible !important;
     width: 100%;
-    margin: 1px;
+    margin: 1p%;
   }
 }
 
@@ -87,7 +85,7 @@ p {
   .col-sm-12 {
     float: left;
     width: 98%;
-    margin: 1px;
+    margin: 1p%;
   }
 }
  
