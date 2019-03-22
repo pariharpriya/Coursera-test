@@ -38,7 +38,7 @@ p {
   .col-lg-4 {
     float:left;
     width: 31.33%;
-    margin: 1px;
+    
   }
 }
  
@@ -47,13 +47,13 @@ p {
   .col-md-6 {
      float: left;
      width: 50%;
-     margin: 1px;
+     
   }
   
   .col-md-12 {
     float: left;
     width: 100%;
-    margin: 1px;
+    
   }
 }
 
@@ -63,7 +63,7 @@ p {
   .col-sm-12 {
     float: left;
     width: 98%;
-    margin: 1px;
+    margin: 1p%;
   }
 }
  
