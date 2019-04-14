@@ -1,0 +1,110 @@
+* {
+  
+  box-sizing: border-box;
+  }
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  overflow-y:scroll; 
+  height:100%;
+}
+/** HEADER **/
+#header-nav {
+  background-color: gray;;
+  border-radius: 0;
+  border: 2px solid black;
+}
+#header-nav button {
+  margin-top: 20px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+.navbar-collapse {
+  border-top: 0;
+
+}
+.navbar-headerbutton.navbar-toggle {
+	clear: both;margin-top: -30px;
+}
+
+.navbar-brand, .navbar-nav li a {
+  line-height: 76px;
+  height: 76px;
+  padding-top: 0;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+
+}
+#navbar-list {
+  background-color: white;;
+  color: black;
+}
+
+#navbar-list a {
+  /*text-align: center;*/
+  font-weight: bolder;
+  color: gray;
+  font-size: 1.2em;
+}
+
+
+#navbar-list a:hover {
+	color: white;
+  background-color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+
+}
+hr{
+  border-color: black;
+}
+
+/** END HEADER */
+
+/** Main contet */
+h1 {
+	
+	font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+#chicken {
+	background-color: gray;
+	
+	margin-left: -20px;
+	
+
+}
+#tile {
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+   .col-xs-12 {
+    
+    width: 95%;
+    margin-right: 35px;
+    margin-left: 25px;
+    
+  }
+}
+
+  @media (max-width: 767px) {
+
+  .col-xs-12 {
+    width: 95%;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
